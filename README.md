@@ -1,4 +1,4 @@
-### Tak Jeon 👋
+# Tak Jeon 👋
 
 # 💪Skills
 ### Platforms & Languages
