@@ -1,5 +1,17 @@
 # Tak Jeon 👋
 
+# 🚩 Stats
+
+![Tak's GitHub stats](https://github-readme-stats.vercel.app/api?username=JEONTAK&show_icons=true&theme=dracula&hide_border=true&card_width=500)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=JEONTAK&theme=dracula&hide_border=true)
+<!--START_SECTION:waka-->
+![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=JEONTAK&layout=compact&theme=dracula)
+<!--END_SECTION:waka-->
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tak980418&theme=dark)](https://solved.ac/tak980418/)
+
+---
+
 # 💪Skills
 ### Platforms & Languages
 ![Java](https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white)
@@ -9,6 +21,7 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JEONTAK&langs_count=8)](https://github.com/JEONTAK/github-readme-stats)
 
+---
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white)
@@ -18,12 +31,8 @@
 ![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)
 
+---
 
-# 🚩 Ranking
-
-![Tak's GitHub stats](https://github-readme-stats.vercel.app/api?username=JEONTAK&show_icons=true&theme=dark)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tak980418)](https://solved.ac/tak980418/)
- 
 # :mailbox_with_mail: Contacts & SNS
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tak980418@gmail.com)](mailto:tak9890418@gmail.com)
 [![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:tak980418@naver.com)](mailto:tak980418@naver.com)
