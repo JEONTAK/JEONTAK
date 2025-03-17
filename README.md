@@ -36,3 +36,5 @@
 [![Naver Badge](https://img.shields.io/badge/Naver-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:tak980418@naver.com)](mailto:tak980418@naver.com)
 [![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=flat-square&logo=discord&logoColor=white&&link=http://www.discord.com/users/328079019931336717)](http://www.discord.com/users/328079019931336717)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/k4tnoej/)](https://www.instagram.com/k4tnoej/)
+
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=JEONTAK.JEONTAK)
