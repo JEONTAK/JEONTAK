@@ -4,7 +4,7 @@
 
 ![Tak's GitHub stats](https://github-readme-stats.vercel.app/api?username=JEONTAK&show_icons=true&theme=dracula&hide_border=true&card_width=500)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=JEONTAK&theme=dracula&hide_border=true)
-[![JEONTAK's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=JEONTAK&theme=dracula)](https://wakatime.com/@kaTnoeJ)
+[![JEONTAK's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=JEONTAK&theme=dracula)](https://wakatime.com/@JEONTAK)
 
 
 
