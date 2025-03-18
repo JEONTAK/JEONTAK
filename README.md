@@ -4,7 +4,9 @@
 
 ![Tak's GitHub stats](https://github-readme-stats.vercel.app/api?username=JEONTAK&show_icons=true&theme=dracula&hide_border=true&card_width=500)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=JEONTAK&theme=dracula&hide_border=true)
-![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=JEONTAK&layout=compact&theme=dracula)
+[![JEONTAK's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=JEONTAK&theme=dracula)](https://wakatime.com/@kaTnoeJ)
+
+
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tak980418&theme=dark)](https://solved.ac/tak980418/)
 
