@@ -18,17 +18,19 @@ concurrency:
 
 jobs:
   preview:
-    # Preview the approved six-row Markdown graph with read-only permissions.
+    # One explicitly approved README-only graph publication; restore read-only after.
     if: ${{ github.repository_id == '773666201' && github.repository_owner_id == '76037656' && github.actor_id == '76037656' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
-      - name: Preview the profile block without publishing
+      - name: Publish the approved six-row Markdown graph only
         uses: JEONTAK/commitkin/profile-sync@72e2a0a0f6f9cac2bf78fface9e1d5ecea719c15
         with:
           token: ${{ github.token }}
           source-repository: ${{ inputs.source_repository }}
-          dry-run: 'true'
+          dry-run: 'false'
 
 # Further profile publication requires separate approval. No schedule, push hook,
 # growth calculation or automatic source-triggered run is enabled.
