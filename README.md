@@ -48,7 +48,7 @@
 
 | Character | **JEONTAK** · Bloomguard |
 | :---: | :--- |
-| <img src="https://raw.githubusercontent.com/JEONTAK/commitkin-character/36d4026a04c05da43e72f1d3db72f92efc880eb7/.commitkin/character.png" width="160" height="160" alt="JEONTAK: Bloomguard pixel character"> | **Lv.1 Adventurer**<br>XP **20 / 100**<br><br>**Activity patterns · 90d**<br>`Craft         ░░░░░░░░░░    0.0 / 100`<br>`Guard         ░░░░░░░░░░    0.0 / 100`<br>`Knowledge     ░░░░░░░░░░    0.0 / 100`<br>`Verification  ░░░░░░░░░░    0.0 / 100`<br>`Recovery      ░░░░░░░░░░    0.0 / 100`<br>`Operations    ░░░░░░░░░░    0.0 / 100` |
+| <img src="https://raw.githubusercontent.com/JEONTAK/commitkin-character/c19303f41cc8e3d8c31358154f45394bbee2ab57/.commitkin/character.png" width="160" height="160" alt="JEONTAK: Bloomguard pixel character"> | **Lv.1 Adventurer**<br>XP **20 / 100**<br><br>**Activity patterns · 90d**<br>`Craft         ░░░░░░░░░░    0.0 / 100`<br>`Guard         ░░░░░░░░░░    0.0 / 100`<br>`Knowledge     ░░░░░░░░░░    0.0 / 100`<br>`Verification  ░░░░░░░░░░    0.0 / 100`<br>`Recovery      ░░░░░░░░░░    0.0 / 100`<br>`Operations    ░░░░░░░░░░    0.0 / 100` |
 
 **Last 30 days** · 1 active day · 5 direct contributions
 
