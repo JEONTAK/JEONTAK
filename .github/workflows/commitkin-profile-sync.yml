@@ -1,13 +1,7 @@
-name: Commitkin profile display preview
+name: Commitkin publish profile once
 
 "on":
   workflow_dispatch:
-    inputs:
-      source_repository:
-        description: Your verified Commitkin installation; author default below
-        type: string
-        required: true
-        default: JEONTAK/commitkin-character
 
 permissions:
   contents: read
@@ -18,15 +12,19 @@ concurrency:
 
 jobs:
   preview:
+    # One user-approved README-only publication. Never invoke the growth Action.
+    if: ${{ github.repository_id == '773666201' && github.repository_owner_id == '76037656' && github.actor_id == '76037656' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
-      - name: Preview the profile block without publishing
+      - name: Publish only the managed profile block from the saved snapshot
         uses: JEONTAK/commitkin/profile-sync@735f54311584f1f3b44fec0491f4e3d99eaed5dc
         with:
           token: ${{ github.token }}
-          source-repository: ${{ inputs.source_repository }}
-          dry-run: 'true'
+          source-repository: JEONTAK/commitkin-character
+          dry-run: 'false'
 
-# A missing saved projection is an expected hold, not a successful sync.
-# No writer, schedule, push hook or automatic source-triggered run is enabled.
+# Restore read-only dry-run after this one manual publication. No schedule,
+# push hook, growth calculation or automatic source-triggered run is enabled.
