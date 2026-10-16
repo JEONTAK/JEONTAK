@@ -1,0 +1,32 @@
+name: Commitkin profile display preview
+
+"on":
+  workflow_dispatch:
+    inputs:
+      source_repository:
+        description: Your verified Commitkin installation; author default below
+        type: string
+        required: true
+        default: JEONTAK/commitkin-character
+
+permissions:
+  contents: read
+
+concurrency:
+  group: commitkin-profile-display
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Preview the profile block without publishing
+        uses: JEONTAK/commitkin/profile-sync@735f54311584f1f3b44fec0491f4e3d99eaed5dc
+        with:
+          token: ${{ github.token }}
+          source-repository: ${{ inputs.source_repository }}
+          dry-run: 'true'
+
+# A missing saved projection is an expected hold, not a successful sync.
+# No writer, schedule, push hook or automatic source-triggered run is enabled.
