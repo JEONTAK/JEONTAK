@@ -18,13 +18,13 @@ concurrency:
 
 jobs:
   preview:
-    # Approved presentation correction is complete. Keep manual read-only preview.
+    # Preview the approved six-row Markdown graph with read-only permissions.
     if: ${{ github.repository_id == '773666201' && github.repository_owner_id == '76037656' && github.actor_id == '76037656' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
       - name: Preview the profile block without publishing
-        uses: JEONTAK/commitkin/profile-sync@603760d17a48db6bdec36db62e433f1e08f6a9ce
+        uses: JEONTAK/commitkin/profile-sync@72e2a0a0f6f9cac2bf78fface9e1d5ecea719c15
         with:
           token: ${{ github.token }}
           source-repository: ${{ inputs.source_repository }}
