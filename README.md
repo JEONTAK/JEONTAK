@@ -44,4 +44,71 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=JEONTAK.JEONTAK)
 
 <!-- COMMITKIN:START -->
+### Commitkin
+
+| Character | Profile |
+| :---: | :--- |
+| ![JEONTAK: Bloomguard pixel character. Level 1 Adventurer.](<https://raw.githubusercontent.com/JEONTAK/commitkin-character/0a74c80aefbf866bfd9b38bd3537b79acf5ef9c8/.commitkin/character.png>) | **JEONTAK** · Bloomguard · Lv.1 Adventurer |
+
+Bloomguard · Permanent faction · Public activity only
+
+**Lv.1 Adventurer** · 20 XP
+
+Next level: 20 / 100 XP
+
+Traits: None yet
+
+Achievements: None yet
+
+#### Activity families · previous 90 completed UTC days
+
+Observed range: 2026-07-18 to 2026-10-16 (UTC, end exclusive; growth-start bounded).
+
+| Family | Pattern | Score |
+| --- | --- | ---: |
+| Craft | `░░░░░░░░░░` | 0.0 / 100 |
+| Guard | `░░░░░░░░░░` | 0.0 / 100 |
+| Knowledge | `░░░░░░░░░░` | 0.0 / 100 |
+| Verification | `░░░░░░░░░░` | 0.0 / 100 |
+| Recovery | `░░░░░░░░░░` | 0.0 / 100 |
+| Operations | `░░░░░░░░░░` | 0.0 / 100 |
+
+Activity-pattern scores describe observed public contributions, not skill or seniority.
+
+#### Recent activity · previous 30 completed UTC days
+
+Observed range: 2026-09-16 to 2026-10-16 (UTC, end exclusive; growth-start bounded).
+
+| Activity | Count |
+| --- | ---: |
+| Active UTC dates | 1 |
+| Merged pull requests | 0 |
+| Reviewed pull requests | 0 |
+| Reviewed PR commits | 0 |
+| Published releases | 0 |
+| Direct contributions | 5 |
+| Repository triage days | 0 |
+
+Data: Complete for the last successful tracked scope.
+
+Last successful analysis: 2026-10-16T05:08:22.882Z.
+Known repositories in that scope: 22.
+
+Growth record starts 2026-07-18 (UTC). Activity outside the observed public scope may be missing.
+
+<details>
+<summary>Character details</summary>
+
+Scope: Public activity from automatically discovered and added repositories. Other activity may be missing.
+
+Class: previous 90 completed UTC days. Traits: previous 30 completed UTC days. Both windows are bounded by the preserved growth start.
+Classification and family scores describe observed contribution style, not skill or seniority. Recent activity counts qualifying identities, not every GitHub event.
+Adventurer: no verified regular-class assignment has been finalized.
+Appearance: Adventurer stays fixed until a verified regular assignment.
+
+Earned achievements: None yet.
+
+[How it works](https://github.com/JEONTAK/commitkin#how-it-works) · [Recovery guide](https://github.com/JEONTAK/commitkin#recovery) · [Credits](https://github.com/JEONTAK/commitkin#credits)
+
+</details>
 <!-- COMMITKIN:END -->
