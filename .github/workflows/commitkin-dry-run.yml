@@ -1,0 +1,36 @@
+name: Commitkin dry-run preview
+
+"on":
+  workflow_dispatch:
+    inputs:
+      faction:
+        description: Temporary preview faction only; nothing is saved
+        type: choice
+        required: true
+        options:
+          - bloomguard
+          - ashbound
+        default: bloomguard
+
+# Deliberately read-only. No schedule, push trigger, PAT or publication input.
+permissions:
+  contents: read
+
+concurrency:
+  group: commitkin-profile-preview
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Prepare a character in memory without publishing
+        uses: JEONTAK/commitkin@d4dc2f224a8e3679f37982ca0451b7ac3e93521a
+        with:
+          token: ${{ github.token }}
+          faction: ${{ inputs.faction }}
+          # This initialization confirmation exists only in memory in dry-run.
+          # It does not persist a faction or authorize a real growth update.
+          confirmation: CONFIRM_PERMANENT_FACTION
+          dry-run: 'true'
