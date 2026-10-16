@@ -45,7 +45,7 @@ jobs:
           }
           NODE
       - name: Prepare a character in memory without publishing
-        uses: JEONTAK/commitkin@ac96eb63f70904ea790bfcaf9d3a5dae38d81f46
+        uses: JEONTAK/commitkin@b4a8bba2d418021ea94a355eccbb8baf2c5861ad
         with:
           token: ${{ github.token }}
           faction: ${{ inputs.faction }}
